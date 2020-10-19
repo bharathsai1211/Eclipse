@@ -1,0 +1,10 @@
+package ExampleAbstarct;
+
+public abstract class Withdraw {
+	public abstract double withdraw();
+	public void display()
+	{
+		System.out.println("In Abstract class");
+	}
+
+}

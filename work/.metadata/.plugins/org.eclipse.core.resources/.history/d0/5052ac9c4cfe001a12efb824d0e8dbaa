@@ -1,0 +1,20 @@
+package helloworld.java;
+
+public class Helloworld {
+
+	public static void main(String[] args) {
+		int a=10;
+		//System.out.println(a);
+		Helloworld hw=new Helloworld();
+		Helloworld hw2=new Helloworld();
+		hw.display(a);
+		hw2.display(20);
+		
+	}
+	public  void display(int x)
+	{
+		
+		System.out.println(x);
+	}
+
+}

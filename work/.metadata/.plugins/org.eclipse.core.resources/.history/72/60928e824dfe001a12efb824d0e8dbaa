@@ -1,0 +1,23 @@
+package helloworld.java;
+
+class Bharath
+{
+	int a,b;
+	String k;
+	static int l=0;
+	Bharath(int x,String y,int z)
+	{
+		this.a=x;
+		this.k=y;
+		this.b=z;
+		
+		
+	}
+	
+	public void display()
+	{
+		System.out.println(a+" "+k+" "+b);
+		
+	}
+}
+

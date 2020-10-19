@@ -1,0 +1,30 @@
+package helloworld.java;
+
+import  static com.igate.trg.demo.Balance.*;
+import static java.lang.Math.*;
+public class Helloworld  {
+
+	
+
+	
+	public static void main(String[] args) {
+		int a=10;
+		//System.out.println(a);
+		Bharath b29=new Bharath();
+		Bharath b=new Bharath(10,"sjsdhkj",120);
+		Bharath b2=new Bharath(90,"lskjskajs",820018);
+		b.display();
+		b2.display();
+		//show();
+		double var1= sqrt(5.0);
+	      //instead of Math.tan need to use only tan
+	      double var2= tan(30);
+	      //need not to use System in both the below statements
+	      System.out.println("Square of 5 is:"+var1);
+	     System. out.println("Tan of 30 is:"+var2);
+		
+		
+	}
+	
+
+}

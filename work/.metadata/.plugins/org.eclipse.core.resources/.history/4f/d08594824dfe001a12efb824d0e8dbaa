@@ -1,0 +1,14 @@
+package helloworld.java;
+
+public class Helloworld {
+
+	public static void main(String[] args) {
+		int a=10;
+		//System.out.println(a);
+		Bharath b=new Bharath(10,"sjsdhkj",120);
+		b.display();
+		
+	}
+	
+
+}

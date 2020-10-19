@@ -1,0 +1,17 @@
+package ExampleAbstarct;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int id;
+		String name;
+		Savings savings=new Savings(10,"bharath","Visa",100000);
+		Current current=new Current(20,"teja","capgemini",2000000);
+		System.out.println(savings);
+		System.out.println(current);
+				
+		
+	}
+
+}

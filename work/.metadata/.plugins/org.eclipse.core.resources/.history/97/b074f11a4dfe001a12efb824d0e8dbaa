@@ -1,0 +1,34 @@
+package helloworld.java;
+
+public class Helloworld {
+
+	public static void main(String[] args) {
+		int a=10;
+		//System.out.println(a);
+		Bharath b=new Bharath(10,"sjsdhkj",120);
+		b.display();
+		
+	}
+	
+
+}
+class Bharath
+{
+	int a,b;
+	String k;
+	static int l=0;
+	Bharath(int a,String k,int b)
+	{
+		this.a=a;
+		this.k=k;
+		this.b=b;
+		
+		
+	}
+	
+	public void display()
+	{
+		System.out.println(a+" "+k+" "+b);
+		
+	}
+}

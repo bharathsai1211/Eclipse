@@ -1,0 +1,80 @@
+package ExampleAbstarct;
+
+public class Current extends Withdraw{
+	private int id;
+	private String name;
+	private String bussiness;
+	private double balance;
+	
+
+	public Current(int id, String name, String bussiness, double balance) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.bussiness = bussiness;
+		this.balance = balance;
+	}
+
+
+	public int getId() {
+		return id;
+	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public String getBussiness() {
+		return bussiness;
+	}
+
+
+	public void setBussiness(String bussiness) {
+		this.bussiness = bussiness;
+	}
+
+
+	public double getBalance() {
+		return balance;
+	}
+
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+
+	public  double withdraw() {
+		return getBalance()-(10000*0.3);
+	
+	}
+	public String toString()
+	{
+		return id+" "+name+" "+bussiness+" "+balance;
+	}
+	public boolean equals(Object obj)
+	{
+		Current c=(Current)obj;
+		if(this.equals(c))
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+}

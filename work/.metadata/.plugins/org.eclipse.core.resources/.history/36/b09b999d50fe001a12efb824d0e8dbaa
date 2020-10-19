@@ -1,0 +1,19 @@
+package com.igate.trg.demo;
+
+public class Balance {
+	String name;
+    public Balance(String n) {
+        name = n;    
+     }
+          int bal=0;
+    public void show() 
+    {
+           
+             if( bal < 0) 
+             {
+	    System.out.println(name + ": $" + bal); 
+             }
+          }
+
+
+}

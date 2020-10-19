@@ -1,0 +1,28 @@
+package helloworld.java;
+
+import  com.igate.trg.demo.Balance;
+
+public class Helloworld extends Balance {
+
+	
+
+	public Helloworld(String n) {
+		super(n);
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		int a=10;
+		//System.out.println(a);
+		Bharath b=new Bharath(10,"sjsdhkj",120);
+		Bharath b2=new Bharath(90,"lskjskajs",820018);
+		b.display();
+		b2.display();
+		Balance b23=new Balance("jhsajha");
+		b23.show();
+		
+		
+	}
+	
+
+}
